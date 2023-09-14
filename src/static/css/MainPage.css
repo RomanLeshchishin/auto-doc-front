@@ -1,0 +1,81 @@
+.navbarBlock{
+  display: flex;
+  flex-direction: row;
+  gap: 771px;
+}
+
+.navbarPages{
+  margin-top: 38px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.navText{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.normal{
+  font-weight: 500;
+}
+
+.navImgBlock{
+  display: flex;
+  gap: 20px;
+}
+
+.navImg{
+  width: 24px;
+  height: 24px;
+}
+
+.mainIcon{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.mainText{
+  color: #C0C0C0;
+  font-family: Montserrat;
+  font-size: 31.738px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.txtWhite{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rightBtn{
+  position:absolute;
+    bottom:50px;
+    right:50px;
+  display: inline-flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 100px;
+  background: #000;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.25);
+}
